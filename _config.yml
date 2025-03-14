@@ -7,7 +7,7 @@ url: "https://brunofsjob.github.io"
 #
 # NB! Without this *nothing* will work, because it's used in every path :)
 
-baseurl: ""
+baseurl: "/"
 
 # Google tracking id
 
@@ -25,9 +25,9 @@ force-https: True
 
 lang: "pt"
 author: "brunofsjob"
-title: "{ Bruno Filipe }"
+title: "{ by Bruno }"
 description: "Compartilho aqui minhas habilidades e projetos pessoais"
-keywords: "smith, jones, personal, jekyll, theme"
+keywords: "brunofsjob, blog, bruno, developer, software"
 favicon: "/img/favicon.ico"
 ################
 # Header layout#
@@ -39,7 +39,7 @@ background-img: "intro-bg.jpg"
 # Dynamic Text on the Header #
 ##############################
 
-quote: "Seja bem-vindo(a) ao meu blog pessoal, aqui você pode conhecer um pouco mais sobre mim..."
+quote: "Bem vindo(a), aqui você pode conhecer um pouco mais sobre mim..."
 me-img: "/img/author.png"
 
 # To use github profile pic uncomment the following line and replace 'user_name'
