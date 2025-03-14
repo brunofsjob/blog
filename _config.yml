@@ -1,7 +1,7 @@
 # Site settings
 
 # NB! Set your site's url, otherwise nothing will work
-url: "https://le4ker.github.io/personal-jekyll-theme"
+url: "brunofsjob.github.io"
 
 # Google tracking id
 google-tracking-id: "UA-XXXXXXXX-X"
@@ -10,10 +10,10 @@ google-tracking-id: "UA-XXXXXXXX-X"
 # HTML Head #
 #############
 
-lang: "en"
-author: "John Smith"
-title: "{ John Smith }"
-description: "Blog and website of John Smith, blogging mainly for tech. Opinions expressed are mine."
+lang: "pt"
+author: "brunofsjob"
+title: "{ Bruno Filipe }"
+description: "Compartilho aqui minhas habilidades e projetos pessoais"
 keywords: "smith, jones, personal, jekyll, theme"
 favicon: "/img/favicon.ico"
 ################
@@ -26,8 +26,8 @@ background-img: "intro-bg.jpg"
 # Dynamic Text on the Header #
 ##############################
 
-quote: "Where’s your will to be weird?"
-me-img: "/img/jetpacktocat.png"
+quote: "Seja bem-vindo(a) ao meu blog pessoal, aqui você pode conhecer um pouco mais sobre mim..."
+me-img: "/img/author.png"
 
 # To use github profile pic uncomment the following line and replace 'user_name'
 # with your github user name.
@@ -51,11 +51,11 @@ email-share: True
 fb-share: True
 twitter-share: True
 linkedin-share: True
-reddit-share: True
-tumblr-share: True
-pinterest-share: True
-pocket-share: True
-vkontakte-share: True
+reddit-share: False
+tumblr-share: False
+pinterest-share: False
+pocket-share: False
+vkontakte-share: False
 
 disqus-shortname: "personal-jekyll-theme"
 
@@ -78,7 +78,7 @@ timeline-img: "/img/timeline/default.png"
 # Contact #
 ###########
 
-email: "your@email.here"
+email: "brunofsjob@gmail.com"
 # Set a url pointing to your publish PGP Public Key here, and it will appear in the Contact section
 pgp: False
 
@@ -101,22 +101,31 @@ author_blurb_image: "/img/author.png"
 
 social:
   - icon: "github"
-    url: "https://github.com/le4ker/personal-jekyll-theme"
+    url: "https://github.com/brunofsjob"
   - icon: "linkedin-in"
-    url: "https://www.linkedin.com"
+    url: "https://www.linkedin.com/ln/brunofsjob"
   - icon: "x-twitter"
-    url: "https://twitter.com/"
-  - icon: "rss"
-    url: "https://le4ker.github.io/personal-jekyll-theme/feed.xml"
+    url: "https://x.com/"
+#  - icon: "rss"
+#    url: "https://le4ker.github.io/personal-jekyll-theme/feed.xml"
 
 # NB! Tread carefully if you want to change the variables below this point!
 
 # Sections shown in the index page
 pages_list:
-  About: "about"
-  Blog: "latest-post"
-  Timeline: "timeline"
-  Contact: "contact"
+
+  Sobre mim: "about"
+  Soft Skill: "soft_skill"
+  Hard Skill: "hard_skill"
+  Contato: "contact"
+
+#  Timeline: "timeline"
+
+#  About: "about"
+#  Blog: "latest-post"
+#  Timeline: "timeline"
+#  ability: "habilidades"
+#  Contact: "contact"
 # Exclusion list from the generated _site
 exclude:
   - LICENSE
