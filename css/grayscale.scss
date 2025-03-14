@@ -657,12 +657,13 @@ table {
 
   overflow-x: auto;
   text-align: center;
-  vertical-align: text-bottom;
+  vertical-align: text-center;
   border: none solid white;
   border-collapse: collapse;
   padding: 0px;
   outline: none;
   margin: auto;
+  text-size-adjust: auto;
 
 }
 th {
@@ -700,6 +701,24 @@ p {
   color: white;
 
 }
+
+p.soft_skill {
+
+  font-size: 18px;
+  margin: 0px;
+  padding: 0px;
+  color: white;
+  text-align: center;
+
+}
+
+p.hard_skill {
+
+  font-size: 18px;
+  margin: 0px;
+  padding: 0px;
+  color: white;
+  text-align: center;
 
 
 }
