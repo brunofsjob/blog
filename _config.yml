@@ -113,12 +113,16 @@ author_blurb_image: "/img/author.png"
 ##################
 
 social:
+  - icon: "instagram"
+    url: "https://www.instagram.com"
+  - icon: "facebook"
+    url: "https://www.facebook.com/brunofsjob"    
   - icon: "github"
     url: "https://github.com/brunofsjob"
   - icon: "linkedin-in"
     url: "https://www.linkedin.com/ln/brunofsjob"
   - icon: "x-twitter"
-    url: "https://x.com/"
+    url: "https://x.com/brunofsjob"
 #  - icon: "rss"
 #    url: "https://le4ker.github.io/personal-jekyll-theme/feed.xml"
 
