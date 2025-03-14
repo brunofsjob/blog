@@ -25,7 +25,7 @@ force-https: True
 
 lang: "pt"
 author: "brunofsjob"
-title: "{ CAPA }"
+title: "{ BRUNO }"
 description: "Compartilho aqui minhas habilidades e projetos pessoais"
 keywords: "brunofsjob, blog, bruno, developer, software"
 favicon: "/img/favicon.ico"
@@ -39,7 +39,7 @@ background-img: "intro-bg.jpg"
 # Dynamic Text on the Header #
 ##############################
 
-quote: "Bem vindo(a), aqui você pode conhecer um pouco mais sobre mim..."
+quote: "Bem vindo(a), aqui você conhece um pouco mais sobre mim..."
 me-img: "/img/author.png"
 
 # To use github profile pic uncomment the following line and replace 'user_name'
