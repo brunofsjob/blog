@@ -1,5 +1,5 @@
 
-url: "https://brunofsjob.github.io/blogpessoal"
+url: "brunofsjob.github.io"
 
 # If you're hosting your site at a Project repository on GitHub pages
 # (https://yourusername.github.io/repository-name)
@@ -8,7 +8,7 @@ url: "https://brunofsjob.github.io/blogpessoal"
 #
 # NB! Without this *nothing* will work, because it's used in every path :)
 
-baseurl: "/blogpessoal"
+baseurl: "/"
 
 # Google tracking id
 
