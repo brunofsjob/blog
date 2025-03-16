@@ -39,7 +39,7 @@ background-img: "intro-bg.jpg"
 # Dynamic Text on the Header #
 ##############################
 
-quote: "Bem vindo(a), aqui você conhece um pouco mais sobre mim..."
+quote: "Aqui você fica sabendo um pouco mais sobre mim..."
 me-img: "/img/author.png"
 
 # To use github profile pic uncomment the following line and replace 'user_name'
