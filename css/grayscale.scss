@@ -589,8 +589,8 @@ body {
   img.iconsocialap {
 
     display: inline-block;
-    width: 62px;
-    height: 62px;
+    width: 65px;
+    height: 65px;
     margin-left: 10px;
     margin-right: 10px;
   }
@@ -600,7 +600,7 @@ body {
     display: flex;
     justify-content: center; /* opcional: alinha ao centro */
     gap: 10px; /* define o espaçamento entre as imagens */
-    margin-top: -15px;
+    margin-top: -25px;
     padding-top: 0px;
 }
 
@@ -708,6 +708,8 @@ body {
     display: flex;
     justify-content: center; /* opcional: alinha ao centro */
     gap: 10px; /* define o espaçamento entre as imagens */
+    margin-top: -15px;
+    padding-top: 0px;
 }
   
 }
