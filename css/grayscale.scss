@@ -122,9 +122,10 @@ a {
   overflow-y: auto;
 
   .navbar-toggler {
-    padding: 10px 10px 0px 0px;
+    padding: 10px 10px 10px 10px;
     margin-left: 50px;
     color: $font-color;
+    align-items: center;
     &:focus,
     &:active {
       outline: none;
