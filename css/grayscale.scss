@@ -20,6 +20,7 @@ body {
   scroll-behavior: smooth;
   overflow-x: hidden;
   width: 100%;
+
 }
 
 h1,
@@ -121,7 +122,8 @@ a {
   overflow-y: auto;
 
   .navbar-toggler {
-    padding: 4px 35px;
+    padding: 14px 35px 0px 0px;
+    margin-left: 50px;
     color: $font-color;
     &:focus,
     &:active {
@@ -133,7 +135,11 @@ a {
   }
   .nav {
     text-align: center;
+    vertical-align: middle;
   }
+
+
+
   @media (min-width: 768px) {
     padding: 20px 0;
     border-bottom: none;
@@ -173,10 +179,9 @@ a {
   -moz-background-size: cover;
   background-size: cover;
   -o-background-size: cover;
-  background-attachment: scroll;
   background-image: url("{{ site.baseurl }}/img/intro-bg.jpg");
   background-position: center center;
-  background-repeat: none;
+  background-repeat: no-repeat;
 
   .intro-text {
     font-size: 1.6rem;
@@ -539,8 +544,9 @@ body {
 }
 
 
-
 @media (min-width: 412px) {
+
+
   .timeline > li {
     min-height: 150px;
   }
@@ -577,15 +583,7 @@ body {
   }
 
 
-  iconsocialapi {
-
-    display: inline-block;
-    width: 80px;
-    height: 80px;
-    margin-left: 10px;
-    margin-right: 10px;
-  }
-
+ 
   div.iconsocialap {
 
     display: flex;
@@ -593,9 +591,19 @@ body {
     gap: 10px; /* define o espaçamento entre as imagens */
     margin-top: 0px;
 
-  }
 }
 
+
+  img.iconsocialapi {
+
+    display: inline-block;
+    width: 48px;
+    height: 48px;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+
+}
 
 @media (min-width: 768px) {
   .timeline:before {
@@ -645,15 +653,6 @@ body {
     text-align: left;
   }
 
-  img.iconsocialap {
-
-    display: inline-block;
-    width: 65px;
-    height: 65px;
-    margin-left: 10px;
-    margin-right: 10px;
-  }
-
   div.iconsocialap {
 
     display: flex;
@@ -661,7 +660,17 @@ body {
     gap: 10px; /* define o espaçamento entre as imagens */
     margin-top: 0px;
     padding-top: 0px;
-  }
+}
+
+  img.iconsocialapi {
+
+    display: inline-block;
+    width: 60px;
+    height: 60px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
 }
 
 @media (min-width: 992px) {
@@ -704,8 +713,8 @@ body {
   img.iconsocialap {
 
     display: inline-block;
-    width: 80px;
-    height: 80px;
+    width: 72px;
+    height: 72px;
     margin-left: 10px;
     margin-right: 10px;
   }
@@ -717,13 +726,9 @@ body {
     gap: 10px; /* define o espaçamento entre as imagens */
     margin-top: 0px;
     padding-top: 0px;
-
 }
   
 }
-
-
-
 
 @media (min-width: 1200px) {
   .timeline > li {
@@ -760,8 +765,8 @@ body {
   img.iconsocialap {
 
     display: inline-block;
-    width: 90px;
-    height: 90px;
+    width: 86px;
+    height: 86px;
     margin-left: 10px;
     margin-right: 10px;
   }
@@ -772,15 +777,13 @@ body {
     justify-content: center; /* opcional: alinha ao centro */
     gap: 10px; /* define o espaçamento entre as imagens */
     margin-top: 0px;
-    padding-top: 0px;
-}
+  }
   
 }
 
 
 table {
 
-  
   overflow-x: hidden;
   text-align: center;
   vertical-align: text-center;
@@ -861,7 +864,6 @@ p.contato {
   color: white;
   text-align: center;
 }
-
 
 p.about {
 
