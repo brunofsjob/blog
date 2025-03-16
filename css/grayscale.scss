@@ -596,6 +596,7 @@ body {
   }
 }
 
+
 @media (min-width: 768px) {
   .timeline:before {
     left: 50%;
@@ -776,7 +777,8 @@ body {
 
 table {
 
-  overflow-x: auto;
+  
+  overflow-x: hidden;
   text-align: center;
   vertical-align: text-center;
   border: none solid white;
@@ -785,6 +787,8 @@ table {
   outline: none;
   margin: auto;
   text-size-adjust: auto;
+  width:min-content;
+  font-size:medium;
 
 }
 th {
@@ -850,6 +854,18 @@ p.contato {
 
   font-size: 28px;
   margin: 0px;
+  padding: 0px;
+  color: white;
+  text-align: center;
+}
+
+
+p.about {
+
+  font-size: 16px;
+  margin: 0px;
+  margin-bottom: 0px;
+  margin-top: 0px;
   padding: 0px;
   color: white;
   text-align: center;
