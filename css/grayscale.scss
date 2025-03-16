@@ -536,6 +536,64 @@ body {
   margin-bottom: 0;
 }
 
+
+
+@media (min-width: 412px) {
+  .timeline > li {
+    min-height: 150px;
+  }
+
+  .timeline > li .timeline-panel {
+    padding: 0 20px 20px;
+  }
+
+  .timeline > li .timeline-image {
+    width: 150px;
+    height: 150px;
+    margin-left: -75px;
+  }
+
+  .img-me {
+    width: 200px;
+    height: 200px;
+  }
+
+  .timeline > li .timeline-image h4 {
+    margin-top: 30px;
+    font-size: 1.9rem;
+    line-height: 26px;
+  }
+
+  .img-me h4 {
+    margin-top: 30px;
+    font-size: 1.9rem;
+    line-height: 26px;
+  }
+
+  .timeline > li.timeline-inverted > .timeline-panel {
+    padding: 0 20px 20px;
+  }
+
+
+  iconsocialapi {
+
+    display: inline-block;
+    width: 80px;
+    height: 80px;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+
+  div.iconsocialap {
+
+    display: flex;
+    justify-content: center; /* opcional: alinha ao centro */
+    gap: 0px; /* define o espaçamento entre as imagens */
+    margin-top: -50px;
+
+  }
+}
+
 @media (min-width: 768px) {
   .timeline:before {
     left: 50%;
@@ -584,8 +642,6 @@ body {
     text-align: left;
   }
 
-
-
   img.iconsocialap {
 
     display: inline-block;
@@ -602,9 +658,7 @@ body {
     gap: 10px; /* define o espaçamento entre as imagens */
     margin-top: -25px;
     padding-top: 0px;
-}
-
-
+  }
 }
 
 @media (min-width: 992px) {
@@ -664,63 +718,6 @@ body {
 
 
 
-@media (min-width: 1080px) {
-  .timeline > li {
-    min-height: 150px;
-  }
-
-  .timeline > li .timeline-panel {
-    padding: 0 20px 20px;
-  }
-
-  .timeline > li .timeline-image {
-    width: 150px;
-    height: 150px;
-    margin-left: -75px;
-  }
-
-  .img-me {
-    width: 200px;
-    height: 200px;
-  }
-
-  .timeline > li .timeline-image h4 {
-    margin-top: 30px;
-    font-size: 1.9rem;
-    line-height: 26px;
-  }
-
-  .img-me h4 {
-    margin-top: 30px;
-    font-size: 1.9rem;
-    line-height: 26px;
-  }
-
-  .timeline > li.timeline-inverted > .timeline-panel {
-    padding: 0 20px 20px;
-  }
-
-
-  img.iconsocialap {
-
-    display: inline-block;
-    width: 80px;
-    height: 80px;
-    margin-left: 10px;
-    margin-right: 10px;
-  }
-
-  div.iconsocialap {
-
-    display: flex;
-    justify-content: center; /* opcional: alinha ao centro */
-    gap: 10px; /* define o espaçamento entre as imagens */
-    margin-top: -35px;
-    padding-top: 0px;
-}
-  
-
-}
 
 @media (min-width: 1200px) {
   .timeline > li {
